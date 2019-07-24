@@ -20,11 +20,13 @@ gem 'rack-cors'
 gem 'active_model_serializers'
 gem 'validates_email_format_of'
 gem 'api-pagination'
+gem 'friendly_id', '~> 5.2.4'
 
 group :development, :test do
   gem 'pry'
   gem 'rspec-rails'
   gem 'rubocop'
+  gem 'byebug'
 end
 
 group :development do
